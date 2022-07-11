@@ -6,7 +6,7 @@ const port = process.env.PORT || 3001;
 const app = express();
 
 app.use(express.static(path.join(__dirname, "public")));
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false })); //Allows data from forms to be extracted
 app.use(ejsLayouts);
 app.set("view engine", "ejs");
 app.use(
