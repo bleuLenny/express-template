@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx nodemon app.js"
+    "lint": "eslint . --ext .ts --fix",
+    "start": "tsc && npx nodemon app.js"
   },
   "author": "",
   "license": "ISC",
