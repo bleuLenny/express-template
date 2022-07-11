@@ -1,5 +1,5 @@
 {
-  "name": "typescript-practice",
+  "name": "express-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -20,6 +20,7 @@
     "passport": "^0.5.0"
   },
   "devDependencies": {
+    "@types/node": "^18.0.3",
     "nodemon": "^2.0.19",
     "typescript": "^4.7.4"
   }
