@@ -31,5 +31,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/", indexRoute);
 
 app.listen(port, () => {
-  console.log(`🚀 Server has started on port ${port}`);
+  console.log(`Server running on port: ${port}`);
 });
